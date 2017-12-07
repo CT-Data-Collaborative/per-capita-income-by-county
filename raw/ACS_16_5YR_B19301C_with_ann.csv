@@ -1,0 +1,11 @@
+GEO.id,GEO.id2,GEO.display-label,HD01_VD01,HD02_VD01
+Id,Id2,Geography,Estimate; Per capita income in the past 12 months (in 2016 inflation-adjusted dollars),Margin of Error; Per capita income in the past 12 months (in 2016 inflation-adjusted dollars)
+0400000US09,09,Connecticut,21639,1964
+0500000US09001,09001,"Fairfield County, Connecticut",23893,3817
+0500000US09003,09003,"Hartford County, Connecticut",17214,2888
+0500000US09005,09005,"Litchfield County, Connecticut",26325,18238
+0500000US09007,09007,"Middlesex County, Connecticut",37536,15826
+0500000US09009,09009,"New Haven County, Connecticut",23170,6772
+0500000US09011,09011,"New London County, Connecticut",25233,4634
+0500000US09013,09013,"Tolland County, Connecticut",17424,7639
+0500000US09015,09015,"Windham County, Connecticut",12451,4803
