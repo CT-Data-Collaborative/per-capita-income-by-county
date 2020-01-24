@@ -20,7 +20,7 @@ x2016_files <- dir(path_to_raw_data, recursive=T, pattern = "ACS")
 
 #Get state data
 geography=geo.make(state=09)
-yearlist=c(2009:2017)
+yearlist=c(2009:2018)
 span = 5
 col.names="pretty" 
 key="ed0e58d2538fb239f51e01643745e83f380582d7"
@@ -203,9 +203,11 @@ pcap_income <- pcap_income %>%
   select(County, FIPS, Year, `Race/Ethnicity`, `Measure Type`, Variable, Value) %>% 
   arrange(County, Year, `Race/Ethnicity`, `Measure Type`)
 
+pcap_income$Value[pcap_income$Value < 0] = -9999
+
 write.table (
   pcap_income,
-  file.path(getwd(), "data", "per_capita_income_county_2017.csv"),
+  file.path(getwd(), "data", "per_capita_income_county_2018.csv"),
   sep = ",",
   row.names = F,
   na = "-9999"
